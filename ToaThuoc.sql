@@ -263,3 +263,54 @@ INSERT INTO ICD (MaICD, MoTaICD) VALUES
 ('R50', N'Sốt không rõ nguyên nhân'),
 ('H10', N'Viêm kết mạc');
 GO
+
+
+
+INSERT INTO Thuoc 
+(TenThuocVaHamLuong, DonViTinh, PhuongThucSuDung, KhongConTonDeLanh, KhongConSuDungTaiThoiDiemNay)
+VALUES
+-- Thuốc cơ bản
+(N'Ibuprofen 400mg', N'viên', N'Uống', 0, 0),
+(N'Omeprazol 20mg', N'viên', N'Uống', 0, 0),
+(N'Metformin 500mg', N'viên', N'Uống', 0, 0),
+(N'Amoxicillin 500mg', N'viên', N'Uống', 0, 0),
+(N'Cefixim 200mg', N'viên', N'Uống', 0, 0),
+
+-- Kháng viêm – giảm đau
+(N'Diclofenac 50mg', N'viên', N'Uống', 0, 0),
+(N'Meloxicam 7.5mg', N'viên', N'Uống', 0, 0),
+
+-- Thuốc dạng gói
+(N'Oresol', N'gói', N'Hòa nước uống', 0, 0),
+(N'Acemuc 200mg', N'gói', N'Uống', 0, 0),
+
+-- Thuốc siro
+(N'Atussin siro', N'chai', N'Uống', 0, 0),
+(N'Bromhexin siro', N'chai', N'Uống', 0, 0),
+
+-- Thuốc xịt & nhỏ
+(N'Natri Clorid 0.9% xịt mũi', N'chai', N'Xịt', 0, 0),
+(N'Xanh Methylen 1%', N'chai', N'Bôi', 0, 0),
+(N'Thuốc nhỏ mắt Natri Clorid 0.9%', N'chai', N'Nhỏ mắt', 0, 0),
+
+-- Thuốc bôi da
+(N'Hydrocortison 1%', N'tuýp', N'Bôi', 0, 0),
+(N'Fucidin 2%', N'tuýp', N'Bôi', 0, 0),
+(N'Ketoconazol 2%', N'tuýp', N'Bôi', 0, 0),
+
+-- Thuốc tiêm
+(N'Vitamin B1 100mg/ml', N'ống', N'Tiêm', 0, 0),
+(N'Ceftriaxon 1g', N'lọ', N'Tiêm', 0, 0),
+
+-- Thuốc ho – cảm cúm
+(N'Decolgen', N'viên', N'Uống', 0, 0),
+(N'Clorpheniramin 4mg', N'viên', N'Uống', 0, 0),
+
+-- Thuốc dạ dày
+(N'Esomeprazol 40mg', N'viên', N'Uống', 0, 0),
+(N'Gaviscon', N'gói', N'Uống', 0, 0),
+
+-- Thuốc bổ
+(N'Vitamin 3B', N'viên', N'Uống', 0, 0),
+(N'Calci D3', N'viên', N'Uống', 0, 0);
+GO
