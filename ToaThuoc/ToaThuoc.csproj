@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormTiepNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTiepNhan.Designer.cs">
+      <DependentUpon>FormTiepNhan.cs</DependentUpon>
+    </Compile>
     <Compile Include="NhapThuoc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +67,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormTiepNhan.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormTiepNhan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NhapThuoc.resx">
       <SubType>Designer</SubType>
       <DependentUpon>NhapThuoc.cs</DependentUpon>
