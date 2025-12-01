@@ -33,8 +33,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BUS\ICDBUS.cs" />
-    <Compile Include="BUS\ThuocBUS.cs" />
+    <Compile Include="BUS\NhapThuoc\ICDBUS.cs" />
+    <Compile Include="BUS\NhapThuoc\ThuocBUS.cs" />
     <Compile Include="DataAccess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\ICDRepository.cs" />

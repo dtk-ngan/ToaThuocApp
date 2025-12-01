@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ToaThuoc {
+namespace ToaThuoc.ToaThuoc {
     using System;
     using System.ComponentModel;
     using CrystalDecisions.Shared;
