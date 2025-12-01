@@ -14,7 +14,7 @@ namespace ToaThuoc
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormTiepNhan());
+            Application.Run(new FormNhapThuoc());
         }
     }
 }

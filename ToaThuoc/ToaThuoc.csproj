@@ -47,12 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormTiepNhan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormTiepNhan.Designer.cs">
-      <DependentUpon>FormTiepNhan.cs</DependentUpon>
-    </Compile>
     <Compile Include="NhapThuoc.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,10 +61,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FormTiepNhan.resx">
-      <SubType>Designer</SubType>
-      <DependentUpon>FormTiepNhan.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="NhapThuoc.resx">
       <SubType>Designer</SubType>
       <DependentUpon>NhapThuoc.cs</DependentUpon>
@@ -128,6 +118,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ToaThuoc.Core\ToaThuoc.Core.csproj">
+      <Project>{5100187A-75E2-403F-8766-29F67D67F563}</Project>
+      <Name>ToaThuoc.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

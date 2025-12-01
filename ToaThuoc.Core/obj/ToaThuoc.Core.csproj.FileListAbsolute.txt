@@ -1,0 +1,5 @@
+D:\Source\ToaThuoc\ToaThuoc.Core\obj\Debug\ResolveAssemblyReference.cache
+D:\Source\ToaThuoc\ToaThuoc.Core\bin\Debug\ToaThuoc.Core.dll
+D:\Source\ToaThuoc\ToaThuoc.Core\bin\Debug\ToaThuoc.Core.pdb
+D:\Source\ToaThuoc\ToaThuoc.Core\obj\Debug\ToaThuoc.Core.dll
+D:\Source\ToaThuoc\ToaThuoc.Core\obj\Debug\ToaThuoc.Core.pdb
