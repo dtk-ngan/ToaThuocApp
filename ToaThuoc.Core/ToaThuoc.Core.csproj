@@ -33,12 +33,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BUS\NhapThuoc\ICDBUS.cs" />
-    <Compile Include="BUS\NhapThuoc\ThuocBUS.cs" />
+    <Compile Include="BUS\ICDBUS.cs" />
+    <Compile Include="BUS\ThuocBUS.cs" />
+    <Compile Include="BUS\BenhNhanBUS.cs" />
     <Compile Include="DataAccess.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\BenhNhanRepository.cs" />
     <Compile Include="Repository\ICDRepository.cs" />
     <Compile Include="Repository\ThuocRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BUS\NhapThuoc\" />
+    <Folder Include="BUS\TiepNhan\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
