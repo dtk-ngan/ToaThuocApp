@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToaThuoc", "ToaThuoc\ToaThuoc.csproj", "{9E9BB5C3-CFF1-4DFA-BCC3-839DCDCA08D8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToaThuoc.Core", "ToaThuoc.Core\ToaThuoc.Core.csproj", "{5100187A-75E2-403F-8766-29F67D67F563}"
