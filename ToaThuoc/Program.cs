@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using ToaThuoc.TiepNhan;
 
 namespace ToaThuoc
 {
@@ -14,7 +15,7 @@ namespace ToaThuoc
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormNhapThuoc());
+            Application.Run(new FrTiepNhan());
         }
     }
 }
